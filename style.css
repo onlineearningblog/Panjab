@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #2E3192;
+}
+header{
+    width: 100%;
+    padding: 20px 30px;
+    background-color:whitesmoke ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+header h1{
+    font-size: 20px;
+}
+.sec-01 h1{
+    font-size: 22px ;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.sec-01 .p{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 0px 20px 0px 10px;
+    text-align: right;
+}
+.sec-01 .fak{
+    float: left;
+    padding: 0px 10px 0px 20px;
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+.sec-02{
+    margin-top: 30px ;
+    color: black;
+    text-align: center;
+}
+.content {
+    width: 80%;
+    height: 35vh;
+    background-color: #FCBF02;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 40px;
+    border: 3px solid lightgray;
+    border-radius: 50px;
+    box-shadow: 2px 5px 2px rgb(82, 78, 78);
+}
+input,textarea{
+    background-color: #ffffff;
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 5px;
+   padding: 20px;
+
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    height: 3vh;
+    color: #2E3192;
+    background-color: #ffffff;
+}
+button:hover{
+    background-color: #2E3192;
+    color: white;
+}
