@@ -50,7 +50,7 @@ header h1{
 }
 .content {
     width: 80%;
-    height: 35vh;
+    height: 45vh;
     background-color: #FCBF02;
     margin-left: 50px;
     margin-top: 15px;
@@ -80,4 +80,12 @@ button{
 button:hover{
     background-color: #2E3192;
     color: white;
+}
+
+
+
+.sec-01 .tablet{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
